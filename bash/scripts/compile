@@ -1,0 +1,670 @@
+loading cache ./config.cache
+checking host system type... sparc-sun-solaris2.9
+Beginning configuration for bash-2.05 for sparc-sun-solaris2.9
+checking for gcc... (cached) gcc
+checking whether the C compiler (gcc  ) works... yes
+checking whether the C compiler (gcc  ) is a cross-compiler... no
+checking whether we are using GNU C... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking whether large file support needs explicit enabling... yes
+checking for POSIXized ISC... no
+checking how to run the C preprocessor... (cached) gcc -E
+checking for minix/config.h... (cached) no
+checking for Cygwin environment... (cached) no
+checking for mingw32 environment... (cached) no
+checking for executable suffix... (cached) no
+checking whether gcc needs -traditional... (cached) no
+checking for a BSD compatible install... (cached) /opt/csw/bin/ginstall -c
+checking for ar... (cached) ar
+checking for ranlib... (cached) ranlib
+checking for bison... (cached) bison -y
+checking whether make sets ${MAKE}... (cached) yes
+checking for working alloca.h... (cached) yes
+checking for alloca... (cached) yes
+checking whether getpgrp takes no argument... (cached) yes
+checking whether setvbuf arguments are reversed... (cached) no
+checking for vprintf... (cached) yes
+checking for wait3 that fills in rusage... (cached) no
+checking for working strcoll... (cached) yes
+checking return type of signal handlers... (cached) void
+checking for __setostype... (cached) no
+checking for wait3... (cached) yes
+checking for mkfifo... (cached) yes
+checking for dup2... (cached) yes
+checking for select... (cached) yes
+checking for getdtablesize... (cached) yes
+checking for getgroups... (cached) yes
+checking for gethostname... (cached) yes
+checking for setdtablesize... (cached) no
+checking for getpagesize... (cached) yes
+checking for killpg... (cached) yes
+checking for lstat... (cached) yes
+checking for getpeername... (cached) no
+checking for sbrk... (cached) yes
+checking for getrlimit... (cached) yes
+checking for getrusage... (cached) yes
+checking for gettimeofday... (cached) yes
+checking for waitpid... (cached) yes
+checking for tcgetpgrp... (cached) yes
+checking for readlink... yes
+checking for rename... (cached) yes
+checking for bcopy... (cached) yes
+checking for bzero... (cached) yes
+checking for confstr... (cached) yes
+checking for getcwd... (cached) yes
+checking for strcasecmp... (cached) yes
+checking for setenv... (cached) no
+checking for putenv... (cached) yes
+checking for setlinebuf... (cached) yes
+checking for setlocale... (cached) yes
+checking for strchr... (cached) yes
+checking for strerror... (cached) yes
+checking for strtod... (cached) yes
+checking for strtol... (cached) yes
+checking for strtoul... (cached) yes
+checking for tcgetattr... (cached) yes
+checking for uname... (cached) yes
+checking for sysconf... (cached) yes
+checking for ulimit... (cached) yes
+checking for times... (cached) yes
+checking for tzset... (cached) yes
+checking for siginterrupt... (cached) yes
+checking for memmove... (cached) yes
+checking for ttyname... (cached) yes
+checking for gethostbyname... (cached) no
+checking for getservbyname... no
+checking for inet_aton... (cached) no
+checking for strpbrk... (cached) yes
+checking for setvbuf... (cached) yes
+checking for pathconf... yes
+checking for libintl.h... (cached) yes
+checking for gettext... (cached) yes
+checking for textdomain... (cached) yes
+checking for bindtextdomain... (cached) yes
+checking for dlopen in -ldl... (cached) yes
+checking for dlopen... (cached) yes
+checking for dlclose... (cached) yes
+checking for dlsym... (cached) yes
+checking for sys_siglist declaration in signal.h or unistd.h... (cached) no
+checking for dirent.h that defines DIR... (cached) yes
+checking for opendir in -ldir... (cached) no
+checking whether time.h and sys/time.h may both be included... (cached) yes
+checking for unistd.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for stdarg.h... (cached) yes
+checking for varargs.h... (cached) no
+checking for limits.h... (cached) yes
+checking for string.h... (cached) yes
+checking for memory.h... (cached) yes
+checking for locale.h... (cached) yes
+checking for termcap.h... (cached) no
+checking for termio.h... (cached) yes
+checking for termios.h... (cached) yes
+checking for dlfcn.h... (cached) yes
+checking for stddef.h... (cached) yes
+checking for netdb.h... (cached) yes
+checking for sys/ptem.h... (cached) yes
+checking for sys/pte.h... (cached) no
+checking for sys/stream.h... (cached) yes
+checking for sys/select.h... (cached) yes
+checking for sys/file.h... (cached) yes
+checking for sys/resource.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for sys/socket.h... (cached) yes
+checking for sys/time.h... (cached) yes
+checking for sys/times.h... (cached) yes
+checking for sys/wait.h... (cached) yes
+checking for netinet/in.h... (cached) yes
+checking for arpa/inet.h... (cached) yes
+checking for inet_aton... (cached) no
+checking for socket library... (cached) yes
+checking for libnsl... (cached) yes
+checking for gethostbyname in socket library... (cached) yes
+checking for uid_t in sys/types.h... (cached) yes
+checking type of array argument to getgroups... (cached) gid_t
+checking for ANSI C header files... (cached) yes
+checking for off_t... (cached) yes
+checking for mode_t... (cached) yes
+checking for uid_t in sys/types.h... (cached) yes
+checking for pid_t... (cached) yes
+checking for size_t... (cached) yes
+checking for time_t... (cached) yes
+checking return type of signal handlers... (cached) void
+checking size of char... (cached) 1
+checking size of short... (cached) 2
+checking size of int... (cached) 4
+checking size of long... (cached) 4
+checking size of char *... (cached) 4
+checking size of double... (cached) 8
+checking for u_int... (cached) yes
+checking for u_long... (cached) yes
+checking for bits16_t... (cached) no
+checking for u_bits16_t... (cached) no
+checking for bits32_t... (cached) no
+checking for u_bits32_t... (cached) no
+checking for bits64_t... (cached) no
+checking for ptrdiff_t... (cached) yes
+checking whether stat file-mode macros are broken... (cached) no
+checking whether byte ordering is bigendian... (cached) yes
+checking whether #! works in shell scripts... (cached) yes
+checking for restartable system calls... (cached) no
+checking if dup2 fails to clear the close-on-exec flag... (cached) no
+checking whether pgrps need synchronization... (cached) no
+checking for type of signal functions... (cached) posix
+checking whether posix sigaction restarts system calls by default... (cached) no
+checking for sys_errlist and sys_nerr... (cached) yes
+checking for sys_siglist in system C library... (cached) no
+checking for _sys_siglist in signal.h or unistd.h... (cached) yes
+checking for _sys_siglist in system C library... (cached) yes
+checking whether signal handlers are of type void... (cached) yes
+checking for clock_t... (cached) yes
+checking for sigset_t... (cached) yes
+checking for quad_t... (cached) yes
+checking for size and type of struct rlimit fields... (cached) long
+checking for a c_line member of struct termios... (cached) no
+checking for a c_line member of struct termio... (cached) yes
+checking if struct dirent has a d_ino member... (cached) yes
+checking if struct dirent has a d_fileno member... (cached) no
+checking for struct winsize in sys/ioctl.h and termios.h... (cached) termios.h
+checking for struct timeval in sys/time.h and time.h... (cached) yes
+checking for the existence of strsignal... (cached) yes
+checking if opendir() opens non-directories... (cached) no
+checking for declaration of printf in <stdio.h>... (cached) yes
+checking whether ulimit can substitute for getdtablesize... (cached) yes
+checking to see if getenv can be redefined... (cached) yes
+checking if getcwd() calls popen()... (cached) no
+checking for declaration of sbrk in <unistd.h>... (cached) yes
+checking for presence of POSIX-style sigsetjmp/siglongjmp... (cached) present
+checking whether or not strcoll and strcmp differ... (cached) no
+checking if signal handlers must be reinstalled when invoked... (cached) no
+checking for presence of necessary job control definitions... (cached) present
+checking for presence of named pipes... (cached) present
+checking for TIOCGWINSZ in sys/ioctl.h... (cached) no
+checking for TIOCSTAT in sys/ioctl.h... (cached) no
+checking for FIONREAD in sys/ioctl.h... (cached) no
+checking for speed_t in sys/types.h... (cached) no
+checking whether getpw functions are declared in pwd.h... yes
+checking for unusable real-time signals due to large values... no
+checking which library has the termcap functions... (cached) using libtermcap
+checking whether /dev/fd is available... (cached) standard
+checking whether /dev/stdin stdout stderr are available... (cached) present
+checking for default mail directory... (cached) /var/mail
+checking shared object configuration for loadable builtins... supported
+updating cache ./config.cache
+creating ./config.status
+creating Makefile
+creating builtins/Makefile
+creating lib/readline/Makefile
+creating lib/glob/Makefile
+creating lib/malloc/Makefile
+creating lib/sh/Makefile
+creating lib/termcap/Makefile
+creating lib/tilde/Makefile
+creating doc/Makefile
+creating support/Makefile
+creating examples/loadables/Makefile
+creating examples/loadables/perl/Makefile
+Can't open ./examples/loadables/perl/Makefile.in
+creating config.h
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -o mksyntax ./mksyntax.c
+rm -f syntax.c
+./mksyntax -o syntax.c
+/bin/sh ./support/mkversion.sh -b -s release -d 2.05 -p 0 -o newversion.h \
+	&& mv newversion.h version.h
+
+	  ***********************************************************
+	  *                                                         *
+	  * Making Bash-2.05.0-release for a sparc running solaris2.9
+	  *                                                         *
+	  ***********************************************************
+
+rm -f shell.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c shell.c
+rm -f eval.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c eval.c
+rm -f y.tab.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c y.tab.c
+rm -f general.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c general.c
+rm -f make_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c make_cmd.c
+rm -f print_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c print_cmd.c
+rm -f dispose_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c dispose_cmd.c
+rm -f execute_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c execute_cmd.c
+rm -f variables.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c variables.c
+rm -f copy_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c copy_cmd.c
+rm -f error.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c error.c
+rm -f expr.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c expr.c
+expr.c:150: warning: conflicting types for built-in function 'exp2'
+rm -f flags.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c flags.c
+rm -f jobs.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c jobs.c
+rm -f subst.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c subst.c
+rm -f hashcmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c hashcmd.c
+rm -f hashlib.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c hashlib.c
+rm -f mailcheck.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c mailcheck.c
+if cmp -s lsignames.h signames.h ; then :; else rm -f signames.h ; cp lsignames.h signames.h ; fi
+rm -f trap.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c trap.c
+rm -f input.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c input.c
+rm -f unwind_prot.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c unwind_prot.c
+rm -f pathexp.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c pathexp.c
+rm -f sig.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c sig.c
+rm -f test.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c test.c
+rm -f version.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c version.c
+rm -f alias.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c alias.c
+rm -f array.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c array.c
+rm -f braces.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c braces.c
+rm -f bracecomp.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c bracecomp.c
+rm -f bashhist.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c bashhist.c
+rm -f bashline.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c bashline.c
+In file included from bashline.c:1362:
+bashline.c: In function `hostname_completion_function':
+bashline.c:568: warning: passing arg 1 of `hostnames_matching' discards qualifiers from pointer target type
+rm -f siglist.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c siglist.c
+rm -f list.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c list.c
+rm -f stringlib.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c stringlib.c
+rm -f locale.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c locale.c
+rm -f findcmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c findcmd.c
+rm -f redir.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c redir.c
+rm -f pcomplete.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c pcomplete.c
+In file included from pcomplete.c:1182:
+pcomplete.c: In function `gen_compspec_completions':
+pcomplete.c:932: warning: passing arg 2 of `gen_shell_function_matches' discards qualifiers from pointer target type
+In file included from pcomplete.c:1198:
+pcomplete.c:1010: warning: passing arg 2 of `gen_command_matches' discards qualifiers from pointer target type
+rm -f pcomplib.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c pcomplib.c
+rm -f syntax.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c syntax.c
+rm -f xmalloc.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"sparc"' -DCONF_OSTYPE='"solaris2.9"' -DCONF_MACHTYPE='"sparc-sun-solaris2.9"' -DCONF_VENDOR='"sun"' -DSHELL  -DHAVE_CONFIG_H  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I.  -I. -I./include -I./lib -I/usr/local/include -g -O2 -c xmalloc.c
+rm -f mkbuiltins.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 mkbuiltins.c
+In file included from mkbuiltins.c:349:
+mkbuiltins.c: In function `array_add':
+mkbuiltins.c:956: warning: passing arg 1 of `xrealloc' from incompatible pointer type
+gcc  -L/opt/csw/lib -g -O2 -o mkbuiltins mkbuiltins.o -lsocket -lnsl -ldl
+./mkbuiltins -externfile builtext.h -structfile builtins.c \
+    -noproduction -D . ./alias.def ./bind.def ./break.def  ./builtin.def ./cd.def ./colon.def  ./command.def ./declare.def ./echo.def  ./enable.def ./eval.def ./getopts.def  ./exec.def ./exit.def ./fc.def  ./fg_bg.def ./hash.def ./help.def  ./history.def ./jobs.def ./kill.def  ./let.def ./read.def ./return.def  ./set.def ./setattr.def ./shift.def  ./source.def ./suspend.def ./test.def  ./times.def ./trap.def ./type.def  ./ulimit.def ./umask.def ./wait.def  ./reserved.def ./pushd.def ./shopt.def  ./printf.def ./complete.def
+rm -f builtins.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 builtins.c
+rm -f alias.o
+./mkbuiltins -D . alias.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 alias.c || ( rm -f alias.c ; exit 1 )
+rm -f alias.c
+rm -f bind.o
+./mkbuiltins -D . bind.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 bind.c || ( rm -f bind.c ; exit 1 )
+rm -f bind.c
+rm -f break.o
+./mkbuiltins -D . break.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 break.c || ( rm -f break.c ; exit 1 )
+rm -f break.c
+rm -f builtin.o
+./mkbuiltins -D . builtin.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 builtin.c || ( rm -f builtin.c ; exit 1 )
+rm -f builtin.c
+rm -f cd.o
+./mkbuiltins -D . cd.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 cd.c || ( rm -f cd.c ; exit 1 )
+rm -f cd.c
+rm -f colon.o
+./mkbuiltins -D . colon.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 colon.c || ( rm -f colon.c ; exit 1 )
+rm -f colon.c
+rm -f command.o
+./mkbuiltins -D . command.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 command.c || ( rm -f command.c ; exit 1 )
+rm -f command.c
+./mkbuiltins -externfile builtext.h -structfile builtins.c \
+    -noproduction -D . ./alias.def ./bind.def ./break.def  ./builtin.def ./cd.def ./colon.def  ./command.def ./declare.def ./echo.def  ./enable.def ./eval.def ./getopts.def  ./exec.def ./exit.def ./fc.def  ./fg_bg.def ./hash.def ./help.def  ./history.def ./jobs.def ./kill.def  ./let.def ./read.def ./return.def  ./set.def ./setattr.def ./shift.def  ./source.def ./suspend.def ./test.def  ./times.def ./trap.def ./type.def  ./ulimit.def ./umask.def ./wait.def  ./reserved.def ./pushd.def ./shopt.def  ./printf.def ./complete.def
+rm -f common.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 common.c
+rm -f declare.o
+./mkbuiltins -D . declare.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 declare.c || ( rm -f declare.c ; exit 1 )
+rm -f declare.c
+rm -f echo.o
+./mkbuiltins -D . echo.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 echo.c || ( rm -f echo.c ; exit 1 )
+rm -f echo.c
+rm -f enable.o
+./mkbuiltins -D . enable.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 enable.c || ( rm -f enable.c ; exit 1 )
+rm -f enable.c
+rm -f eval.o
+./mkbuiltins -D . eval.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 eval.c || ( rm -f eval.c ; exit 1 )
+rm -f eval.c
+rm -f evalfile.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 evalfile.c
+rm -f evalstring.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 evalstring.c
+rm -f exec.o
+./mkbuiltins -D . exec.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 exec.c || ( rm -f exec.c ; exit 1 )
+rm -f exec.c
+rm -f exit.o
+./mkbuiltins -D . exit.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 exit.c || ( rm -f exit.c ; exit 1 )
+rm -f exit.c
+rm -f fc.o
+./mkbuiltins -D . fc.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 fc.c || ( rm -f fc.c ; exit 1 )
+rm -f fc.c
+rm -f fg_bg.o
+./mkbuiltins -D . fg_bg.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 fg_bg.c || ( rm -f fg_bg.c ; exit 1 )
+rm -f fg_bg.c
+rm -f hash.o
+./mkbuiltins -D . hash.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 hash.c || ( rm -f hash.c ; exit 1 )
+rm -f hash.c
+rm -f help.o
+./mkbuiltins -D . help.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 help.c || ( rm -f help.c ; exit 1 )
+rm -f help.c
+rm -f history.o
+./mkbuiltins -D . history.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 history.c || ( rm -f history.c ; exit 1 )
+rm -f history.c
+rm -f jobs.o
+./mkbuiltins -D . jobs.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 jobs.c || ( rm -f jobs.c ; exit 1 )
+rm -f jobs.c
+rm -f kill.o
+./mkbuiltins -D . kill.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 kill.c || ( rm -f kill.c ; exit 1 )
+rm -f kill.c
+rm -f let.o
+./mkbuiltins -D . let.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 let.c || ( rm -f let.c ; exit 1 )
+rm -f let.c
+rm -f pushd.o
+./mkbuiltins -D . pushd.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 pushd.c || ( rm -f pushd.c ; exit 1 )
+rm -f pushd.c
+rm -f read.o
+./mkbuiltins -D . read.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 read.c || ( rm -f read.c ; exit 1 )
+rm -f read.c
+rm -f return.o
+./mkbuiltins -D . return.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 return.c || ( rm -f return.c ; exit 1 )
+rm -f return.c
+rm -f set.o
+./mkbuiltins -D . set.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 set.c || ( rm -f set.c ; exit 1 )
+rm -f set.c
+rm -f setattr.o
+./mkbuiltins -D . setattr.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 setattr.c || ( rm -f setattr.c ; exit 1 )
+rm -f setattr.c
+rm -f shift.o
+./mkbuiltins -D . shift.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 shift.c || ( rm -f shift.c ; exit 1 )
+rm -f shift.c
+rm -f source.o
+./mkbuiltins -D . source.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 source.c || ( rm -f source.c ; exit 1 )
+rm -f source.c
+rm -f suspend.o
+./mkbuiltins -D . suspend.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 suspend.c || ( rm -f suspend.c ; exit 1 )
+rm -f suspend.c
+rm -f test.o
+./mkbuiltins -D . test.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 test.c || ( rm -f test.c ; exit 1 )
+rm -f test.c
+rm -f times.o
+./mkbuiltins -D . times.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 times.c || ( rm -f times.c ; exit 1 )
+rm -f times.c
+rm -f trap.o
+./mkbuiltins -D . trap.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 trap.c || ( rm -f trap.c ; exit 1 )
+rm -f trap.c
+rm -f type.o
+./mkbuiltins -D . type.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 type.c || ( rm -f type.c ; exit 1 )
+rm -f type.c
+rm -f ulimit.o
+./mkbuiltins -D . ulimit.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 ulimit.c || ( rm -f ulimit.c ; exit 1 )
+./ulimit.def: In function `ulimit_internal':
+./ulimit.def:372: warning: overflow in implicit constant conversion
+rm -f ulimit.c
+rm -f umask.o
+./mkbuiltins -D . umask.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 umask.c || ( rm -f umask.c ; exit 1 )
+rm -f umask.c
+rm -f wait.o
+./mkbuiltins -D . wait.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 wait.c || ( rm -f wait.c ; exit 1 )
+rm -f wait.c
+rm -f getopts.o
+./mkbuiltins -D . getopts.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 getopts.c || ( rm -f getopts.c ; exit 1 )
+rm -f getopts.c
+rm -f shopt.o
+./mkbuiltins -D . shopt.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 shopt.c || ( rm -f shopt.c ; exit 1 )
+rm -f shopt.c
+rm -f printf.o
+./mkbuiltins -D . printf.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 printf.c || ( rm -f printf.c ; exit 1 )
+rm -f printf.c
+rm -f getopt.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 getopt.c
+rm -f bashgetopt.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 bashgetopt.c
+rm -f complete.o
+./mkbuiltins -D . complete.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE  -I. -I..  -I.. -I../include -I../lib -I.  -g -O2 complete.c || ( rm -f complete.c ; exit 1 )
+rm -f complete.c
+rm -f libbuiltins.a
+ar cr libbuiltins.a builtins.o  alias.o bind.o break.o builtin.o cd.o colon.o command.o  common.o declare.o echo.o enable.o eval.o evalfile.o  evalstring.o exec.o  exit.o fc.o fg_bg.o hash.o help.o history.o jobs.o kill.o let.o  pushd.o read.o return.o set.o setattr.o shift.o source.o  suspend.o test.o times.o trap.o type.o ulimit.o umask.o  wait.o getopts.o shopt.o printf.o getopt.o bashgetopt.o complete.o
+ranlib libbuiltins.a
+making lib/sh/libsh.a in ./lib/sh
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE clktck.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE clock.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE getcwd.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE getenv.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE oslib.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE setlinebuf.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE strcasecmp.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE strerror.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE strtod.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE strtol.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE strtoul.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE vprint.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE itos.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE rename.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE zread.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE zwrite.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE shtty.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE inet_aton.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE netopen.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE strpbrk.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE timeval.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE makepath.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE pathcanon.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE pathphys.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE tmpfile.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE stringlist.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE stringvec.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE spell.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE shquote.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE strtrans.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I. -DHAVE_CONFIG_H -DSHELL   -g -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE strindex.c
+rm -f libsh.a
+ar cr libsh.a clktck.o clock.o getcwd.o getenv.o oslib.o setlinebuf.o  strcasecmp.o strerror.o strtod.o strtol.o strtoul.o  vprint.o itos.o rename.o zread.o zwrite.o shtty.o  inet_aton.o netopen.o strpbrk.o timeval.o makepath.o pathcanon.o  pathphys.o tmpfile.o stringlist.o stringvec.o spell.o shquote.o  strtrans.o strindex.o
+test -n "ranlib" && ranlib libsh.a
+making lib/readline/libreadline.a in ./lib/readline
+rm -f readline.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 readline.c
+rm -f vi_mode.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 vi_mode.c
+rm -f funmap.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 funmap.c
+rm -f keymaps.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 keymaps.c
+rm -f parens.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 parens.c
+rm -f search.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 search.c
+rm -f rltty.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 rltty.c
+rm -f complete.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 complete.c
+rm -f bind.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 bind.c
+In file included from bind.c:1364:
+bind.c: In function `rl_variable_bind':
+bind.c:1266: warning: passing arg 1 of `find_boolean_var' discards qualifiers from pointer target type
+In file included from bind.c:1367:
+bind.c:1350: warning: passing arg 1 of `bool_to_int' discards qualifiers from pointer target type
+In file included from bind.c:1373:
+bind.c:1335: warning: passing arg 1 of `find_string_var' discards qualifiers from pointer target type
+rm -f isearch.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 isearch.c
+rm -f display.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 display.c
+display.c: In function `rl_character_len':
+display.c:1318: warning: comparison is always true due to limited range of data type
+rm -f signals.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 signals.c
+rm -f util.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 util.c
+rm -f kill.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 kill.c
+rm -f undo.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 undo.c
+rm -f macro.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 macro.c
+rm -f input.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 input.c
+rm -f callback.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 callback.c
+rm -f terminal.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 terminal.c
+rm -f nls.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 nls.c
+rm -f history.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 history.c
+rm -f histexpand.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 histexpand.c
+rm -f histfile.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 histfile.c
+rm -f histsearch.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 histsearch.c
+rm -f shell.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 shell.c
+rm -f tilde.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 tilde.c
+In file included from tilde.c:331:
+tilde.c: In function `tilde_expand_word':
+tilde.c:262: warning: passing arg 1 of `isolate_tilde_prefix' discards qualifiers from pointer target type
+In file included from tilde.c:205:
+tilde.c: In function `tilde_expand':
+tilde.c:124: warning: passing arg 1 of `tilde_find_prefix' discards qualifiers from pointer target type
+In file included from tilde.c:219:
+tilde.c:158: warning: passing arg 1 of `tilde_find_suffix' discards qualifiers from pointer target type
+rm -f xmalloc.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 xmalloc.c
+rm -f compat.o
+gcc -c -DHAVE_CONFIG_H -DSHELL  -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I/net/frost/export/u2/wmotycka/bash/source -I../.. -I../../lib  -g -O2 compat.c
+rm -f libreadline.a
+ar cr libreadline.a readline.o vi_mode.o funmap.o keymaps.o parens.o search.o  rltty.o complete.o bind.o isearch.o display.o signals.o  util.o kill.o undo.o macro.o input.o callback.o terminal.o  nls.o history.o histexpand.o histfile.o histsearch.o shell.o savestring.o tilde.o xmalloc.o compat.o
+test -n "ranlib" && ranlib libreadline.a
+making lib/readline/libhistory.a in ./lib/readline
+rm -f libhistory.a
+ar cr libhistory.a history.o histexpand.o histfile.o histsearch.o shell.o savestring.o xmalloc.o
+test -n "ranlib" && ranlib libhistory.a
+making lib/termcap/libtermcap.a in ./lib/termcap
+gcc -c -g -O2 -DHAVE_CONFIG_H -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I../.. -I../.. -I../../lib -I. termcap.c
+gcc -c -g -O2 -DHAVE_CONFIG_H -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I../.. -I../.. -I../../lib -I. tparam.c
+rm -f -f libtermcap.a
+ar cr libtermcap.a termcap.o tparam.o
+test -n "ranlib" && ranlib libtermcap.a
+making lib/glob/libglob.a in ./lib/glob
+gcc -c -DHAVE_CONFIG_H -DSHELL -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 glob.c
+gcc -c -DHAVE_CONFIG_H -DSHELL -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 fnmatch.c
+rm -f libglob.a
+ar cr libglob.a glob.o fnmatch.o
+test -n "ranlib" && ranlib libglob.a
+making lib/tilde/libtilde.a in ./lib/tilde
+gcc -c -DHAVE_CONFIG_H -DSHELL -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 tilde.c
+In file included from tilde.c:331:
+tilde.c: In function `tilde_expand_word':
+tilde.c:262: warning: passing arg 1 of `isolate_tilde_prefix' discards qualifiers from pointer target type
+In file included from tilde.c:205:
+tilde.c: In function `tilde_expand':
+tilde.c:124: warning: passing arg 1 of `tilde_find_prefix' discards qualifiers from pointer target type
+In file included from tilde.c:219:
+tilde.c:158: warning: passing arg 1 of `tilde_find_suffix' discards qualifiers from pointer target type
+rm -f libtilde.a
+ar cr libtilde.a tilde.o
+test -n "ranlib" && ranlib libtilde.a
+rm -f bash
+gcc -L./builtins -L./lib/readline -L./lib/readline -L./lib/termcap  -L./lib/glob -L./lib/tilde -L./lib/malloc -L./lib/sh  -L/opt/csw/lib  -g -O2 -o bash shell.o eval.o y.tab.o general.o make_cmd.o print_cmd.o   dispose_cmd.o execute_cmd.o variables.o copy_cmd.o error.o  expr.o flags.o jobs.o subst.o hashcmd.o hashlib.o mailcheck.o  trap.o input.o unwind_prot.o pathexp.o sig.o test.o version.o  alias.o array.o braces.o bracecomp.o bashhist.o bashline.o  siglist.o list.o stringlib.o locale.o findcmd.o redir.o  pcomplete.o pcomplib.o syntax.o xmalloc.o -lbuiltins -lsh -lreadline -lhistory -ltermcap -lglob  -ltilde -lmalloc -lintl -lsocket -lnsl -ldl
+ls -l bash
+-rwx--x--x   1 wmotycka ugrad    1602564 Jul 24 10:52 bash
+size bash
+543779 + 22736 + 9220 = 575735
+/opt/csw/bin/ginstall -c -m 0755 bash /net/frost/export/u2/wmotycka/bash/source/bin/bash
+/opt/csw/bin/ginstall -c -m 0555 bashbug /net/frost/export/u2/wmotycka/bash/source/bin/bashbug
+( cd ./doc ; make  \
+	man1dir=/net/frost/export/u2/wmotycka/bash/source/man/man1 man1ext=1 \
+	man3dir=/net/frost/export/u2/wmotycka/bash/source/man/man3 man3ext=3 \
+	infodir=/net/frost/export/u2/wmotycka/bash/source/info htmldir= install )
+makeinfo --no-split -I../lib/readline/doc ./bashref.texi
+./bashref.texi:5068: warning: unlikely character [ in @var.
+./bashref.texi:5068: warning: unlikely character ] in @var.
+test -d /net/frost/export/u2/wmotycka/bash/source/man/man1 || /bin/sh ../support/mkdirs /net/frost/export/u2/wmotycka/bash/source/man/man1
+test -d /net/frost/export/u2/wmotycka/bash/source/info || /bin/sh ../support/mkdirs /net/frost/export/u2/wmotycka/bash/source/info
+if [ -n "" ]; then \
+	test -d  || /bin/sh ../support/mkdirs  ; \
+fi
+/opt/csw/bin/ginstall -c -m 644 ./bash.1 /net/frost/export/u2/wmotycka/bash/source/man/man1/bash.1
+/opt/csw/bin/ginstall -c -m 644 ./bashbug.1 /net/frost/export/u2/wmotycka/bash/source/man/man1/bashbug.1
+/opt/csw/bin/ginstall -c -m 644 ./bashref.info /net/frost/export/u2/wmotycka/bash/source/info/bash.info
+if /bin/sh -c 'install-info --version' >/dev/null 2>&1; then \
+	install-info --dir-file=/net/frost/export/u2/wmotycka/bash/source/info/dir /net/frost/export/u2/wmotycka/bash/source/info/bash.info; \
+else true; fi
+if [ -n "" ]; then \
+	/opt/csw/bin/ginstall -c -m 644 ./bash.html  ; \
+	/opt/csw/bin/ginstall -c -m 644 ./bashref.html  ; \
+fi
