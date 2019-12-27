@@ -1,0 +1,12 @@
+v1 corresponds to make-3.76.1, however, note that for versions.seeded, 
+    this really corresponds to v0-v1, as the faults inserted are seeded 
+    into v1 and represent faults acquired from v0 to v1
+v2 corresponds to make-3.77, or v1-v2
+v3 corresponds to make-3.78.1, or v2-v3
+v4 corresponds to make-3.79, or v3-v4
+
+buglists contains detailed accounts of the faults inserted into each 
+version.
+
+-J. Ruthruff
+10:40p, 6/13/2001

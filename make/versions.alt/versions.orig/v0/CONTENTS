@@ -1,0 +1,84 @@
+v0 - Make-3.75
+
+To create an executable named make.exe, enter 
+
+make build
+
+To create an executable with traces named make.st.int.exe or 
+make.bt.int.exe, enter the following:
+
+make build-st 
+or 
+make build-bt
+
+========================================================
+
+The following is a list of files obtained from the original .tar file, and
+what was done with them...any of the deleted files/directories can be
+obtained from the .tar file in the orig directory
+
+========================================================
+
+*.c =>			Deleted
+*.h => 			Saved
+COPYING => 		~/research/subjects/make/docs/v0
+ChangeLog => 		~/research/subjects/make/docs/v0
+INSTALL => 		~/research/subjects/make/docs/v0
+Makefile => 		Deleted
+Makefile.ami => 	Deleted
+Makefile.in => 		Deleted
+NEWS  => 		~/research/subjects/make/docs/v0
+NMakefile =>		Deleted
+README => 		~/research/subjects/make/docs/v0
+README.Amiga => 	~/research/subjects/make/docs/v0
+README.WIN32 => 	~/research/subjects/make/docs/v0
+SCOPTIONS =>		Deleted
+SMakefile => 		Deleted
+TAGS =>			Deleted
+aclocal.m4 =>		Deleted
+build.sh => 		Deleted
+build.sh.in => 		Deleted
+build_w32.bat => 	Deleted
+config.ami => 		Deleted
+config.cache => 	Deleted
+config.h-vms => 	Deleted
+config.h.WIN32 => 	Deleted
+config.h.in => 		Deleted
+config.log => 		Deleted
+config.status => 	Deleted
+configh.dos => 		Deleted
+configure => 		Deleted
+configure.bat => 	Deleted
+configure.in => 	Deleted
+install-sh => 		Deleted
+make-stds.texi => 	Deleted
+make.aux => 		Deleted
+make.cp => 		Deleted
+make.cps => 		Deleted
+make.fn => 		Deleted
+make.fns => 		Deleted
+make.info* =>		Deleted
+make.ky =>		Deleted
+make.lnk =>		Deleted
+make.man =>		Deleted
+make.pg =>		Deleted
+make.texinfo =>		Deleted
+make.toc =>		Deleted
+make.tp =>		Deleted
+make.vr =>		Deleted
+makefile.com =>		Deleted
+makefile.vms =>		Deleted
+mkinstalldirs  =>	Deleted
+readme.vms =>		Deleted
+stamp-config =>		Deleted
+subproc.bat =>		Deleted
+tags =>			Deleted
+texinfo.tex =>		Deleted
+./glob/*.h =>           Transfered to base directory
+./glob/(!*.h) =>        Deleted
+./w32/*                 Deleted
+
+========================================================
+
+-J. Ruthruff
+11:35p, 2/19/2001

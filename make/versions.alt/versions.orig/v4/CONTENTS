@@ -1,0 +1,17 @@
+v4 - Make-3.79
+
+Contains the *.h files and a .c file that will compile and link into an
+executable 3.79 version of Make
+
+To create an executable named make.exe, use the following command 
+
+make build
+
+All original .c files were either merged into make.c or deleted if they
+were unnecessary.  All .h files were saved except for the win32 ones.
+Everything else was deleted.
+
+=========================
+
+-J. Ruthruff
+11:40p, 2/19/2001

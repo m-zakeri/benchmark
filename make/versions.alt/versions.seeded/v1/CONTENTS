@@ -1,0 +1,89 @@
+v1 - Make-3.76.1
+
+Contains the *.h files and a .c file that will compile and link into an
+executable 3.76.1 version of Make
+
+To create an executable named make.exe, use the following 
+
+make build
+
+To create an executable with tracing, named make.st.int.exe or 
+make.bt.int.exe, use the following
+
+make build-st
+or
+make build-bt
+
+The following is a list of files obtained from the original .tar file, and
+what was done with them...any of the deleted files/directories can be
+obtained from the .tar file in the orig directory
+
+========================================================
+
+./*.h =>        Saved
+./*.c =>        Saved
+AUTHORS =>      Moved to docs/v1
+COPYING =>      Moved to docs/v1
+ChangeLog =>    Moved to docs/v1
+INSTALL =>      Moved to docs/v1
+Makefile =>     Deleted
+Makefile.DOS => Deleted
+Makefile.am =>  Deleted
+Makefile.ami => Deleted
+Makefile.in =>  Deleted
+NEWS =>         Moved to docs/v1
+NMakefile =>    Deleted
+README =>       Moved to docs/v1
+README.Amiga => Moved to docs/v1
+README.DOS =>   Moved to docs/v1
+README.W32 =>   Moved to docs/v1
+SCOPTIONS =>    Deleted
+SMakefile =>    Deleted
+acconfig.h =>   Deleted
+aclocal.m4 =>   Deleted
+build.sh =>     Deleted
+build.sh.in =>  Deleted
+build_w32.bat =>Deleted
+config.ami =>   Deleted
+config.cache => Deleted
+config.h-vms => Deleted
+config.h.W32 => Deleted
+config.h.in =>  Deleted
+config.log =>   Deleted
+config.status =>Deleted
+configh.dos =>  Deleted
+configure =>    Deleted
+configure.bat = Deleted
+configure.in => Deleted
+dosbuild.bat => Deleted
+glob/*.h =>     Saved
+glob/(!*.h) =>  Deleted
+install-sh =>   Deleted
+make-stds.texi=>Deleted
+make.info =>    Deleted
+make.info-1 =>  Deleted
+make.info-2 =>  Deleted
+make.info-3 =>  Deleted
+make.info-4 =>  Deleted
+make.info-5 =>  Deleted
+make.info-6 =>  Deleted
+make.info-7 =>  Deleted
+make.info-8 =>  Deleted
+make.info-9 =>  Deleted
+make.lnk =>     Deleted
+make.man =>     Moved to docs/v1
+make.texinfo => Deleted
+makefile.com => Deleted
+makefile.vms => Deleted
+missing =>      Deleted
+mkinstalldirs =>Deleted
+readme.vms =>   Moved to docs/v1
+stamp-h.in =>   Deleted
+subproc.bat =>  Deleted
+texinfo.tex =>  Deleted
+w32 =>          Deleted
+
+=========================
+
+-J. Ruthruff
+11:35p, 2/19/2001
